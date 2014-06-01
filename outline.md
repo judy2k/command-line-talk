@@ -13,17 +13,24 @@
 * Command-Line Arguments
   * Options:
     * getopt, optparse, argparse
-    * click, cliff, ??
+
   * Don't use getopt
   * Use argparse
   
 * Input
   * stdin
   * getpass
+  
 * Output (Stdout, Stderr)
   * Using `print`
     * Formatting operator vs str.format
-  * Colour
+
+
+
+# TODO
+
+* click, cliff, ??`
+* Colour
 * Error-handling
   * Catch exceptions properly!
   * Catch KeyboardInterrupt!
@@ -37,5 +44,3 @@
 
 * Interactive command-line programs
 * Configuration
-
-pygmentize -O fontfamily='Source Code Pro' -O style=colorful,linenos=1 -f rtf

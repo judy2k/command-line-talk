@@ -22,7 +22,7 @@ def one(argv):
 def two(argv):
     " Print A_LIST_OF_WORDS in fixed-width columns. "
     for word in A_LIST_OF_WORDS:
-        print "{word:15}  {length:>2}".format(
+        print "{word:15} {length:>2}".format(
             word=word,
             length=len(word))
 
@@ -45,6 +45,10 @@ def four(argv):
     """
     format_table([(word, word, len(word)) for word in A_LIST_OF_WORDS])
 
+
+def old(argv):
+    for word in A_LIST_OF_WORDS:
+        print "|%02d|%-20s|" % (len(word), word)
 
 def format_table(rows):
     """
