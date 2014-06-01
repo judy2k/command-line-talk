@@ -1,0 +1,3 @@
+Piped input: False
+Piped output: True
+Piped error: False
