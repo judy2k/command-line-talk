@@ -36,3 +36,5 @@
 
 * Interactive command-line programs
 * Configuration
+
+pygmentize -O fontfamily='Source Code Pro' -O style=colorful,linenos=1 -f rtf
