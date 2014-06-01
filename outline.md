@@ -9,6 +9,7 @@
       * You probably have an old version though
       * Quick start-up
       * Low memory requirements
+      
 * Command-Line Arguments
   * Options:
     * getopt, optparse, argparse
@@ -32,3 +33,6 @@
   * distutils, setuptools
   * platform-specific packaging
   * run your own PyPI
+
+* Interactive command-line programs
+* Configuration
