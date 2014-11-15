@@ -1,3 +1,4 @@
-Piped input: False
-Piped output: True
-Piped error: False
+some red text
+and with a green background
+and in bright text 
+back to normal now

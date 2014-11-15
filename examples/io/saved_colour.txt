@@ -1,0 +1,4 @@
+[31msome red text
+[42mand with a green background
+[1mand in bright text [39m[49m[0m
+back to normal now
