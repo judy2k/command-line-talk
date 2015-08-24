@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+
+from argparse import ArgumentParser
+
+
 ap = ArgumentParser()
 ap.add_argument('-v', '--verbose',
     default=False, action='store_true',

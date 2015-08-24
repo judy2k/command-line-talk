@@ -5,10 +5,10 @@ import time
 
 
 def main():
-    try:
+    #try:
         time.sleep(5)
-    except KeyboardInterrupt:
-        pass
+    #except KeyboardInterrupt:
+    #    pass
 
 
 if __name__ == '__main__':
